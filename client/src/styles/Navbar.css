@@ -1,0 +1,22 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  height: 50px;
+  width: 100%;
+  padding: 0px 20px;
+  
+  box-sizing: border-box;
+  
+  background-color: blue;
+}
+
+#navbar > .title {
+  font-size: 32px;
+}
+
+#navbar > .options {
+  margin-left: auto;
+  font-size: 32px;
+}
