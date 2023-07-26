@@ -6,3 +6,11 @@
   height: 100%;
   width: 100%;
 }
+
+:root {
+  --btn-clr: #f9bc60;
+  --btn-hover-clr: #f69f1d;
+  --btn-active-clr: #c77a07;
+  
+  --btn-text-clr: #001e1d;
+}
