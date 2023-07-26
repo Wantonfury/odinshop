@@ -1,4 +1,5 @@
 import '../../styles/Navbar.css';
+import NavbarAccountActions from './NavbarAccountActions';
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
         <span>Odinshop</span>
       </div>
       <div className='options'>
-        <span>Options</span>
+        <NavbarAccountActions />
       </div>
     </div>
   );
