@@ -1,11 +1,15 @@
 .App {
   display: flex;
   flex-direction: column;
+  align-items: center;
   
   min-height: 100vh;
-  height: 100%;
+  height: 100vh;
   width: 100%;
+  
+  background-color: var(--background-clr);
 }
+
 
 :root {
   --btn-clr: #f9bc60;
@@ -13,4 +17,17 @@
   --btn-active-clr: #c77a07;
   
   --btn-text-clr: #001e1d;
+  
+  --background-clr: #abd1c6;
+  --page-clr: #004643;
+  --page-title-clr: #fffffe;
+  --page-text-clr: #abd1c6;
+  
+  --card-clr: #e8e4e6;
+  --card-title-clr: #001e1d;
+  --card-title-size: 28px;
+  --card-title-weight: 600;
+  
+  --card-text-clr: #0f3433;
+  --card-text-size: 16px;
 }
